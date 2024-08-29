@@ -14,9 +14,9 @@ img{
 }
 
 .row{
-  display: flex;  
-  flex: 1;
+  display: flex;    
   flex-direction: row;
+  flex: 1;
   margin: auto;
   margin-top: 1%;
   justify-content: center;
@@ -124,3 +124,47 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.rcorners {
+  border-radius: 25px;
+  border: 2px solid #B0B0B0;
+  padding: 20px;
+  width: 200px;
+  height: 600px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contactusrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactperson {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 10%;  
+  border-right: 3px solid #B0B0B0;
+}
+
+.contactdetails {
+  width: 50%;
+  padding-right: 10%;  
+}
+
+.contactboldtext {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6F94E6;
+}
+
+.contactnormaltext {
+    font-weight: normal;
+    font-size: 20px;
+    color: #6F94E6;
+  }
