@@ -89,18 +89,6 @@ def get_dealerships(request, state="All"):
     else:
         endpoint = "/fetchDealers/"+state
     dealerships = get_request(endpoint)
-    #dealerships = [{
-    #  "id": 1,
-    #  "city": "El Paso",
-    #  "state": "Texas",
-    #  "st": "TX",
-    #  "address": "3 Nova Court",
-    #  "zip": "88563",
-    #  "lat": 31.6948,
-    #  "long": -106.3,
-    #  "short_name": "Holdlamis",
-    #  "full_name": "Holdlamis Car Dealership"
-    #}]
     return JsonResponse({"status":200,"dealers":dealerships})
 
 
